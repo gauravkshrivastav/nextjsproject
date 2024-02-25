@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
 	const [showloader, setShowloader] = useState(true);
 
   useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
     AOS.init({
          duration: 800,
          once: false,
@@ -20,7 +21,7 @@ export default function RootLayout({ children }) {
 
        setTimeout(() => {
         setShowloader(false);
-       }, 5000);
+       }, 2000);
  }, [])
  
   return (
@@ -29,7 +30,8 @@ export default function RootLayout({ children }) {
         <div>
 
       <div className='loader'> 
-      {showloader ? <div className='loader_class'><RotatingLines
+      {showloader ? <div className='loader_class'>
+  <RotatingLines
   visible={true}
   height="180"
   width="180"
@@ -43,7 +45,7 @@ export default function RootLayout({ children }) {
 
       <div className='page_section'>
          <Navbar/>
-            <main>{children}</main>
+            <main className='main_section'>{children}</main>
             <Footer /> 
             </div>
 
