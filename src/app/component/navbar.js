@@ -31,7 +31,8 @@ const Navbar = () => {
         <i className="bi bi-list mobile-nav-toggle"></i>
       </nav>
 
-      <a className="appointment-btn scrollto"><span className="d-none d-md-inline">Make an</span> Appointment</a>
+      <a className="appointment-btn scrollto">
+      <span className="d-none d-md-inline">Make an</span> Appointment</a>
 
     </div>
   </header>

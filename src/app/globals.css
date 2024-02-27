@@ -106,7 +106,7 @@ a {
   }
 }
 
-.inner_search label {
+.search_section label {
 
 }
 
@@ -118,7 +118,7 @@ a {
   background-size: cover;
 }
 
-.inner_search input {
+.search_section input {
   padding: 3px;
   border: 1px solid #ccc;
 }
@@ -130,10 +130,44 @@ a {
     padding: 10px 0px;
     margin: 20px 0px;
 }
-.inner_search {
+
+.search_section form input, .filter_section form select{
   box-shadow: 2px 2px 6px 5px #ccc;
   background-color: #fff;
-  padding: 17px;
+  padding: 10px 20px;
+}
+
+.search_section {
+  margin: 11px 0px;
+}
+.details_card .card-body {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.details-btn {
+    background: #3EB5AA;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    border: none;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.search-filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search_section label, .filter_section label {
+  padding: 9px 0px;
+    color: #136d65;
+    display: block;
+    font-weight: 600;
+
 }
 
 #hero {
