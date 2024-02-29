@@ -25,8 +25,8 @@ const Navbar = () => {
         <li><Link href="/">Home</Link></li>
           <li><a className="nav-link scrollto">About</a></li>
           <li><a className="nav-link scrollto">Services</a></li>
-          <li><Link href="/pages/productlist">Departments</Link></li>
-          <li><Link href="/pages/contact">Contact</Link></li>
+          <li><Link href="/">Departments</Link></li>
+          <li><Link href="/">Contact</Link></li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle"></i>
       </nav>

@@ -10,13 +10,13 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins" !important;
   color: #444444;
 }
 
 a {
   color: #3EB5AA;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins";
 }
 
 /*--------------------------------------------------------------
@@ -141,7 +141,7 @@ h6 {
   background:#ffffff7a;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
   top: 40px;
 }
 
@@ -168,11 +168,6 @@ h6 {
 #header .logo a {
   color: #555555;
 }
-
-#header .logo img {
-  max-height: 40px;
-}
-
 /**
 * Appointment Button
 */
@@ -457,6 +452,8 @@ h6 {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 50px;
+  margin-top: 100px;
+  border-top: 2px solid #3eb4a9;
 }
 
 @media (max-width: 1200px) {
@@ -849,16 +846,14 @@ section {
 .counts .count-box span {
   font-size: 42px;
   line-height: 24px;
-  display: block;
   font-weight: 700;
   color: #555555;
-  margin-left: 50px;
+  margin-left: 10px;
 }
 
 .counts .count-box p {
   padding: 30px 0 0 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
@@ -868,7 +863,7 @@ section {
   margin-top: 20px;
   color: #7b7b7b;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   transition: ease-in-out 0.3s;
 }
 
@@ -1383,7 +1378,7 @@ section {
   font-size: 36px;
   color: #3EB5AA;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   margin-bottom: 20px;
 }
 
@@ -1439,7 +1434,6 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1487,7 +1481,6 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #3EB5AA;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1683,7 +1676,6 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
 }
 
 #footer .footer-top .social-links a {

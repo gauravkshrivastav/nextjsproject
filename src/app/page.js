@@ -22,7 +22,7 @@ export default function Home() {
     <div className="row">
       <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
         <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-          <div className="icon"><i className="fas fa-heartbeat"></i></div>
+          <div className="icon"><i className="fa fa-heartbeat"></i></div>
           <h4 className="title"><a href="">Lorem Ipsum</a></h4>
           <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
         </div>
@@ -30,7 +30,7 @@ export default function Home() {
 
       <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
         <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
-          <div className="icon"><i className="fas fa-pills"></i></div>
+          <div className="icon"><i className="fa fa-pills"></i></div>
           <h4 className="title"><a href="">Sed ut perspiciatis</a></h4>
           <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
         </div>
@@ -38,7 +38,7 @@ export default function Home() {
 
       <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
         <div className="icon-box" data-aos="fade-up" data-aos-delay="300">
-          <div className="icon"><i className="fas fa-thermometer"></i></div>
+          <div className="icon"><i className="fa fa-thermometer"></i></div>
           <h4 className="title"><a href="">Magni Dolores</a></h4>
           <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
         </div>
@@ -46,7 +46,7 @@ export default function Home() {
 
       <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
         <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
-          <div className="icon"><i className="fas fa-dna"></i></div>
+          <div className="icon"><i className="fa fa-dna"></i></div>
           <h4 className="title"><a href="">Nemo Enim</a></h4>
           <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
         </div>
@@ -64,7 +64,10 @@ export default function Home() {
 
         <div className="section-title">
           <h2>About Us</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Qonaq Health and Wellness Private Ltd. strongly believes that healthcare should be accessible to all people, without boundaries. The company was founded witnessing the difficult time of the COVID-19 pandemic, which exposed weaknesses in accessing healthcare globally. The COVID-19 pandemic also highlighted the lack of effective management and communication networks among medical providers and services worldwide. Qonaq's goal is to create a world where high-quality healthcare and wellness services are available to everyone, no matter their location, socioeconomic status, or any other obstacles that has traditionally limited access to healthcare. </p><br/>
+<p>Qonaq is a partner in one's journey towards complete well-being. The disparity in healthcare during the pandemic: limited access to specialized treatments, long wait times, and no affordable options in many areas, motivated Qonaq to break down barriers to healthcare. We aim to provide budget-friendly, world-class healthcare and wellness options tailored to individual needs, addressing treatments, relaxation, and healing needs. We’re on a mission: to offer a path free from constraints and full of prospects for better health outcomes by streamlined patient management services worldwide, rapid response for urgent & critical cases.</p><br/>
+<p>We aim to focus on accessible advanced medical care but also wellness treatments, relaxation techniques, and restorative experiences in peaceful surroundings. We firmly believe in a recovery that goes beyond the physical and encompasses the mental and spiritual aspects of the individual. Our mission is to support and guide you on your journey towards improved health and overall well-being, not just limiting our support till the treatment but also during post-recovery.</p>
+
         </div>
 
         <div className="row">
@@ -73,120 +76,26 @@ export default function Home() {
               height={1000} className="img-fluid" alt=""/>
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
+            <h3>Values we propose at Qonaq Health and Wellness: - </h3>
             <ul>
-              <li><i className="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i className="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i className="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+          <li>Seamless Healthcare Journey (Use infographics here): We solve your problems, starting from visa acquisition up to helping you recuperate.</li>
+          <li> Seamless Wellness (Use infographics here): Qonaq rejuvenates you with customized wellness programs including yoga, meditation, spirituality, tailored to individual needs.</li>
+          <li>Affordable, Top-Notch Care (Use infographics here): Stick to affordable medical and wellness care without breaking the bank with Qonaq. You also gain access to financial assistance for exceptional cases through crowdfunding and partnerships with NGOs.</li>
+          <li>Clear and Trusting (Use infographics here): We value honesty at Qonaq. Count on us for explicitly stated details and open pricing so that you can focus on getting better while leaving no room for issues.</li>
+          
             </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            
           </div>
+          <ul>
+          <li>Dive into Culture (Use infographics here): Come to India on a healing journey. With Qonaq, you will visit different places, meet new people and become part of their culture.</li>
+          <li>Tailored to You (Use infographics here): Your health plan should be as unique as You. At Qonaq, our treatment and wellness plans are tailored just for you.</li>
+          <li>Guidance Every Step (Use infographics here): At Qonaq; one never walks alone. Our team of professionals in medicine or traveling spheres will walk with you through every step of your trip making sure that there is an excellent service delivery thus making your experience hassle-free.</li>
+
+          </ul>
         </div>
 
       </div>
     </section>
-
-
-
-    {/* <section id="doctors" className="doctors section-bg">
-      <div className="container" data-aos="fade-up">
-
-        <div className="section-title">
-          <h2>Doctors</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div className="row">
-
-          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div className="member" data-aos="fade-up" data-aos-delay="100">
-              <div className="member-img">
-                <Image src="/img/doctors/doctors-1.jpg" width={1000} height={1000}
-              priority className="img-fluid" alt=""/>
-                <div className="social">
-                  <a href=""><i className="bi bi-twitter"></i></a>
-                  <a href=""><i className="bi bi-facebook"></i></a>
-                  <a href=""><i className="bi bi-instagram"></i></a>
-                  <a href=""><i className="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div className="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Medical Officer</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div className="member" data-aos="fade-up" data-aos-delay="200">
-              <div className="member-img">
-                <Image src="" width={300} height={260}
-              className="img-fluid" alt=""/>
-                <div className="social">
-                  <a href=""><i className="bi bi-twitter"></i></a>
-                  <a href=""><i className="bi bi-facebook"></i></a>
-                  <a href=""><i className="bi bi-instagram"></i></a>
-                  <a href=""><i className="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div className="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Anesthesiologist</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div className="member" data-aos="fade-up" data-aos-delay="300">
-              <div className="member-img">
-                <Image src="/img/doctors/doctors-3.jpg" width={1000} height={1000}
-              priority className="img-fluid" alt=""/>
-                <div className="social">
-                  <a href=""><i className="bi bi-twitter"></i></a>
-                  <a href=""><i className="bi bi-facebook"></i></a>
-                  <a href=""><i className="bi bi-instagram"></i></a>
-                  <a href=""><i className="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div className="member-info">
-                <h4>William Anderson</h4>
-                <span>Cardiology</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div className="member" data-aos="fade-up" data-aos-delay="400">
-              <div className="member-img">
-                <Image src="/img/doctors/doctors-4.jpg" width={1000} height={1000}
-              priority className="img-fluid" alt=""/>
-                <div className="social">
-                  <a href=""><i className="bi bi-twitter"></i></a>
-                  <a href=""><i className="bi bi-facebook"></i></a>
-                  <a href=""><i className="bi bi-instagram"></i></a>
-                  <a href=""><i className="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div className="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Neurosurgeon</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-        */}
 
 
 
@@ -196,39 +105,47 @@ export default function Home() {
 
         <div className="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h4>Streamline Your Healthcare Experience.</h4>
         </div>
 
         <div className="row">
           <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div className="icon"><i className="fas fa-heartbeat"></i></div>
-            <h4 className="title"><a href="">Lorem Ipsum</a></h4>
-            <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <div className="icon"><i className="fa fa-heartbeat"></i></div>
+            <h4 className="title"><a href="">Find a Doctor (Infographic)</a></h4>
+            <p className="description">Select your required specialty or procedure, and we will connect you with the best-suited doctors and hospitals.</p>
           </div>
           <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div className="icon"><i className="fas fa-pills"></i></div>
-            <h4 className="title"><a href="">Dolor Sitema</a></h4>
-            <p className="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <div className="icon"><i className="fa fa-pills"></i></div>
+            <h4 className="title"><a href="">View Profile (Infographic)</a></h4>
+            <p className="description">Explore detailed profiles of our vetted doctors and hospitals, complete with essential credentials and verified user reviews.</p>
           </div>
           <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div className="icon"><i className="fas fa-hospital-user"></i></div>
-            <h4 className="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <div className="icon"><i className="fa fa-hospital-user"></i></div>
+            <h4 className="title"><a href="">Send Query (Infographic)</a></h4>
+            <p className="description">Confidentially communicate your medical inquiries or share reports with our healthcare providers and receive a comprehensive quick reply.</p>
           </div>
+          </div>
+          
+          <div className="section-title">
+            <h4>Streamline Your Wellness  Experience.</h4>
+            </div>
+
+
+          <div className="row">
           <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div className="icon"><i className="fas fa-dna"></i></div>
-            <h4 className="title"><a href="">Magni Dolores</a></h4>
-            <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <div className="icon"><i className="fa fa-dna"></i></div>
+            <h4 className="title"><a href="">Find your wellness plan(Infographic)</a></h4>
+            <p className="description">Select from Our Spectrum of Wellness: From Yoga to Ayurveda</p>
           </div>
           <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div className="icon"><i className="fas fa-wheelchair"></i></div>
-            <h4 className="title"><a href="">Nemo Enim</a></h4>
-            <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <div className="icon"><i className="fa fa-wheelchair"></i></div>
+            <h4 className="title"><a href="">View Retreats (Infographic)</a></h4>
+            <p className="description">Browse Our Variety of Retreats to Find Your Perfect Getaway</p>
           </div>
           <div className="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div className="icon"><i className="fas fa-notes-medical"></i></div>
-            <h4 className="title"><a href="">Eiusmod Tempor</a></h4>
-            <p className="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <div className="icon"><i className="fa fa-notes-medical"></i></div>
+            <h4 className="title"><a href="">Send a query (Infographic)</a></h4>
+            <p className="description">For further details, contact us.</p>
           </div>
         </div>
 
@@ -244,37 +161,37 @@ export default function Home() {
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div className="count-box">
-              <i className="fas fa-user-md"></i>
-              <PureIncrement start={0} end={300} duration={80} className="purecounter" />
+              <i className="fa fa-user-md"></i>
+              <PureIncrement start={0} end={500} duration={80} className="purecounter" /> <span className=""> + </span>
 
-              <p><strong>Doctors</strong> consequuntur quae qui deca rode</p>
+              <p><strong>Expert Doctors </strong> : Your Trusted Health Advisors</p>
               <a href="#">Find out more </a>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div className="count-box">
-              <i className="far fa-hospital"></i>
-              <PureIncrement start={0} end={200} duration={70} className="purecounter" />
-              <p><strong>Departments</strong> adipisci atque cum quia aut numquam delectus</p>
+              <i className="fa fa-hospital"></i>
+              <PureIncrement start={0} end={300} duration={70} className="purecounter" />
+              <p>Access to Premium Hospitals & Multi-Specialty Health Centers</p>
               <a href="#">Find out more </a>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div className="count-box">
-              <i className="fas fa-flask"></i>
-              <PureIncrement start={0} end={100} duration={50} className="purecounter" />
-              <p><strong>Research Lab</strong> aut commodi quaerat. Aliquam ratione</p>
+              <i className="fa fa-flask"></i>
+              <PureIncrement start={0} end={1000} duration={50} className="purecounter" />
+              <p><strong>Patients Served</strong></p>
               <a href="#">Find out more </a>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div className="count-box">
-              <i className="fas fa-award"></i>
-              <PureIncrement start={0} end={150} duration={60} className="purecounter" />
-              <p><strong>Awards</strong> rerum asperiores dolor molestiae doloribu</p>
+              <i className="fa fa-award"></i>
+              <PureIncrement start={0} end={500} duration={60} className="purecounter" />
+              <p>Choose from Diverse Retreat Packages for Your Healing Journey</p>
               <a href="#">Find out more </a>
             </div>
           </div>
