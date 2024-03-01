@@ -65,7 +65,7 @@ export default function Home() {
         <div className="section-title">
           <h2>About Us</h2>
           <p>Qonaq Health and Wellness Private Ltd. strongly believes that healthcare should be accessible to all people, without boundaries. The company was founded witnessing the difficult time of the COVID-19 pandemic, which exposed weaknesses in accessing healthcare globally. The COVID-19 pandemic also highlighted the lack of effective management and communication networks among medical providers and services worldwide. Qonaq's goal is to create a world where high-quality healthcare and wellness services are available to everyone, no matter their location, socioeconomic status, or any other obstacles that has traditionally limited access to healthcare. </p><br/>
-<p>Qonaq is a partner in one's journey towards complete well-being. The disparity in healthcare during the pandemic: limited access to specialized treatments, long wait times, and no affordable options in many areas, motivated Qonaq to break down barriers to healthcare. We aim to provide budget-friendly, world-class healthcare and wellness options tailored to individual needs, addressing treatments, relaxation, and healing needs. We’re on a mission: to offer a path free from constraints and full of prospects for better health outcomes by streamlined patient management services worldwide, rapid response for urgent & critical cases.</p><br/>
+<p>Qonaq is a partner in one's journey towards complete well-being. The disparity in healthcare during the pandemic: limited access to specialized treatments, long wait times, and no affordable options in many areas, motivated Qonaq to break down barriers to healthcare. We aim to provide budget-friendly, world-className healthcare and wellness options tailored to individual needs, addressing treatments, relaxation, and healing needs. We’re on a mission: to offer a path free from constraints and full of prospects for better health outcomes by streamlined patient management services worldwide, rapid response for urgent & critical cases.</p><br/>
 <p>We aim to focus on accessible advanced medical care but also wellness treatments, relaxation techniques, and restorative experiences in peaceful surroundings. We firmly believe in a recovery that goes beyond the physical and encompasses the mental and spiritual aspects of the individual. Our mission is to support and guide you on your journey towards improved health and overall well-being, not just limiting our support till the treatment but also during post-recovery.</p>
 
         </div>
@@ -203,12 +203,12 @@ export default function Home() {
 
     <div className="faq_stick_button sticky_button" data-bs-toggle="modal"
         data-bs-target="#exampleModal">
-        <span><i class="fas fa-comments" aria-hidden="true"></i></span>
+        <span><i className="fas fa-comments" aria-hidden="true"></i></span>
     </div>
 
     <div className="contact_stick_button sticky_button" data-bs-toggle="modal"
         data-bs-target="#exampleModal1">
-        <span><i class="fas fa-info-circle" aria-hidden="true"></i></span>
+        <span><i className="fas fa-info-circle" aria-hidden="true"></i></span>
     </div>
 
 

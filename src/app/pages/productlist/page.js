@@ -34,7 +34,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -46,7 +46,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -58,7 +58,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -69,7 +69,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -80,7 +80,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -91,7 +91,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -102,7 +102,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -113,7 +113,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -124,7 +124,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -135,7 +135,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -145,7 +145,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -155,7 +155,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -165,7 +165,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -175,7 +175,7 @@ const Productlist = () => {
   <div class="col">
     <div class="card">
       <Image src="/img/product.jpg" class="card-Image-top" width={260}
-              height={150} className="img-fluid" alt=""/>
+              height={150}  alt=""/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

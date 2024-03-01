@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Script from "next/script";
-import "@fontsource/poppins"; // Defaults to weight 400
+import "@fontsource/poppins";
 
 export default function RootLayout({ children }) {
   const [showloader, setShowloader] = useState(true);
