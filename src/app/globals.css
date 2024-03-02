@@ -96,9 +96,49 @@ body {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url(../../public/img/hero-bg1.png) top center;
-  background-size: cover;
+  background: url(../../public/img/Qonaq-Header.png) top center;
+  background-size: contain;
 
+}
+
+#footer .footer-top {
+  
+  background: url(../../public/img/slide-1.jpg) top center;
+  
+  color: #fff;
+  background-repeat: no-repeat;
+}
+
+#about-us {
+
+  background: url(../../public/img/slide-3.jpg) top center;
+  background-size: contain;
+  color: #fff;
+
+}
+
+.image_slide img {
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+.section_slider {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+.sticky  #header{
+
+  background-color: #fff !important; }
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 
@@ -111,11 +151,6 @@ body {
 
   top:29%;
   margin-right:-10px;
-}
-
-
-main.main_section {
-  margin-top:40px;
 }
 
 .bgimage {
@@ -138,6 +173,23 @@ main.main_section {
 
 }
 
+:root {
+  --swiper-theme-color: #3EB5AA;
+}
+:root {
+  --swiper-navigation-color: #3EB5AA;
+}
+:root {
+  --swiper-pagination-color: #3EB5AA;
+}
+.swiper-button-next, .swiper-button-prev {
+  color: #3EB5AA !important;
+}
+
+.loader_class .gZmPOF {
+  display: block !important;
+
+}
   .loader_class {
     position: fixed;
     z-index: 999;

@@ -5,10 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./component/footer";
 import Navbar from "./component/navbar";
-import { RotatingLines } from "react-loader-spinner";
-import 'bootstrap/dist/css/bootstrap.css';
+import { ThreeCircles } from "react-loader-spinner";
+import 'bootstrap/dist/css/bootstrap.css'
 import 'font-awesome/css/font-awesome.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Script from "next/script";
 import "@fontsource/poppins";
 
@@ -33,14 +32,14 @@ export default function RootLayout({ children }) {
           <div className="loader">
             {showloader ? (
               <div className="loader_class">
-                <RotatingLines
+                <ThreeCircles
                   visible={true}
                   height="180"
                   width="180"
-                  color="black"
+                  color="#3eb5aa"
                   strokeWidth="5"
                   animationDuration="0.75"
-                  ariaLabel="rotating-lines-loading"
+                  ariaLabel="three-circles-loading"
                   wrapperStyle={{}}
                   wrapperClass=""
                 />

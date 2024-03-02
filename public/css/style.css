@@ -138,11 +138,11 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background:#ffffff7a;
+  background:none;
   transition: all 0.5s;
   z-index: 997;
   padding: 10px 0;
-  top: 40px;
+  border-top: 5px solid #3eb5aa;
 }
 
 @media (max-width: 992px) {
@@ -217,6 +217,11 @@ h6 {
   position: relative;
 }
 
+.header.sticky .navbar a {
+  color: #000;
+
+}
+
 .navbar a,
 .navbar a:focus {
   display: flex;
@@ -225,7 +230,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
-  color: #000;
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;

@@ -1,22 +1,29 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 const Navbar = () => {
+    const [isSticky, setSticky] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+          if (window.scrollY > 100) { // Adjust this value as needed
+            setSticky(true);
+          } else {
+            setSticky(false);
+          }
+        };
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
+    
+
     return (
         <>
-        <div id="topbar" className="d-flex align-items-center fixed-top">
-<div className="container d-flex align-items-center justify-content-center justify-content-md-between">
-  <div className="align-items-center d-none d-md-flex">
-    <i className="bi bi-clock"></i> Monday - Saturday, 8AM to 10PM
-  </div>
-  <div className="d-flex align-items-center">
-    <i className="bi bi-phone"></i> Call us now +1 5589 55488 55
-  </div>
-</div>
-</div>
-
-
-  <header id="header" className="fixed-top">
+<div className={`header ${isSticky ? 'sticky' : ''}`}>
+  <header id="header" className='fixed-top' >
     <div className="container d-flex align-items-center">
 
       <a href="index.html" className="logo me-auto"><img src="/img/logo.png" alt=""/></a>
@@ -35,6 +42,7 @@ const Navbar = () => {
 
     </div>
   </header>
+  </div>
         </>
     )
 }
