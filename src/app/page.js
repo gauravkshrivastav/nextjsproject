@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 "use client";
 import React, { useRef, useEffect, useState } from "react";
 import Image from "next/image";
@@ -18,6 +10,11 @@ import Accordian from "./component/accordian";
 import Appointment from "./component/appointment";
 import jsonData from "./services/data.json"; // Import the JSON data
 import { register } from "swiper/element/bundle";
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination } from 'swiper/modules'
 register();
 
 export default function Home(args) {
@@ -185,21 +182,24 @@ export default function Home(args) {
             <div className="section-title">
             <h2>Values we propose at Qonaq Health and Wellness: - </h2>
 
-            <swiper-container
+            <Swiper
               ref={swiperElRef}
-              slides-per-view="2"
-              navigation="true"
-              pagination="true"
+              navigation={true}
+              pagination={true}
+              autoplay={{
+                delay: 3500,
+                disableOnInteraction: false,
+              }}
             >
               {jsonData.aboutusdata.map((item) => (
-                  <swiper-slide>
+                  <SwiperSlide>
                     <div className="section_slider">
                      <div className="image_slide"> <Image src={item?.image} alt="sddasdasdsad" width={100} height={100}/></div>
                       {item?.content}
                     </div>
-                  </swiper-slide>
+                  </SwiperSlide>
               ))}
-            </swiper-container>
+            </Swiper>
           </div>
           </div>
         </section>
