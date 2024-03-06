@@ -24,7 +24,7 @@ const Count = ()=>{
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div className="count-box">
-              <Image src={doctors} alt="sadasd"/>
+              <Image className="count-box-img" src={doctors} alt="sadasd"/>
               <PureIncrement start={0} end={500} duration={80} className="purecounter" /> <span className=""> + </span>
 
               <p><strong>Expert Doctors </strong> : Your Trusted Health Advisors</p>
@@ -34,7 +34,7 @@ const Count = ()=>{
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div className="count-box">
-            <Image src={hospital} alt="sadasd"/>
+            <Image className="count-box-img" src={hospital} alt="sadasd"/>
             <PureIncrement start={0} end={300} duration={70} className="purecounter" /> <span className=""> + </span>
               <p>Access to Premium Hospitals & Multi-Specialty Health Centers</p>
               <a href="#">Find out more </a>
@@ -43,7 +43,7 @@ const Count = ()=>{
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div className="count-box">
-            <Image src={patients} alt="sadasd"/>
+            <Image className="count-box-img" src={patients} alt="sadasd"/>
               <PureIncrement start={0} end={1000} duration={50} className="purecounter" /> <span className=""> + </span>
               <p><strong>Patients Served</strong></p>
               <a href="#">Find out more </a>
@@ -52,7 +52,7 @@ const Count = ()=>{
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div className="count-box">
-            <Image src={retreatpackage} alt="sadasd"/>
+            <Image className="count-box-img" src={retreatpackage} alt="sadasd"/>
               <PureIncrement start={0} end={500} duration={60} className="purecounter" /> <span className=""> + </span>
               <p>Choose from Diverse Retreat Packages for Your Healing Journey</p>
               <a href="#">Find out more </a>

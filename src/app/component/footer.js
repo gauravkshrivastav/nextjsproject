@@ -1,4 +1,5 @@
 import React from 'react'
+import Appointment from './appointment';
 
 const Footer = () => {
     return (
@@ -38,7 +39,7 @@ const Footer = () => {
             </ul> */}
           </div>
 
-          <div className="col-lg-3 col-md-6 footer-links">
+          <div className="col-lg-1 col-md-6 footer-links">
             {/* <h4>Our Services</h4>
             <ul>
               <li><i className="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -49,7 +50,8 @@ const Footer = () => {
             </ul> */}
           </div>
 
-          <div className="col-lg-4 col-md-6 footer-newsletter">
+          <div className="col-lg-6 col-md-6 footer-newsletter">
+            <Appointment/>
             {/* <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">

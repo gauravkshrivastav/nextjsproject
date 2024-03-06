@@ -145,7 +145,7 @@ h6 {
   border-top: 5px solid #3eb5aa;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1500px) {
   #header {
     padding: 15px 0;
   }
@@ -230,7 +230,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
-  color: #fff;
+  color: #000;
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;
@@ -634,6 +634,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -825,6 +826,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -838,6 +840,12 @@ section {
   box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
   padding: 30px;
   width: 100%;
+}
+
+.counts .count-box img {
+  /*width: 50px;
+  height: 55px;*/
+  vertical-align: inherit;
 }
 
 .counts .count-box i {
@@ -1674,12 +1682,14 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
+  color: #000;
 }
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
+  color: #000;
 }
 
 #footer .footer-top .social-links a {
@@ -1748,19 +1758,14 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
   background: #fff;
-  padding: 6px 10px;
+  padding: 26px 20px;
   position: relative;
   border: 1px solid #d5d5d5;
   border-radius: 4px;
 }
 
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
+
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
   position: absolute;

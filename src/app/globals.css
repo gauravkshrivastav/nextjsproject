@@ -101,13 +101,14 @@ body {
   width: 100%;
   height: 80vh;
   background: url(../../public/img/Qonaq-Header.png) top center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
 #footer .footer-top {
   
-  background: url(../../public/img/slide-1.jpg) top center;
+  background: url(../../public/img/about-us-footer.png) top center;
   
   color: #fff;
   background-repeat: no-repeat;
@@ -115,9 +116,10 @@ body {
 
 #about-us {
 
-  background: url(../../public/img/slide-3.jpg) top center;
-  background-size: contain;
-  color: #fff;
+  background: url(../../public/img/qonaq-about-us.jpg) top center;
+  background-size: cover;
+  color: #000;
+  background-repeat: no-repeat;
 
 }
 
@@ -204,4 +206,7 @@ body {
     background-color: #f7f7f7cf;
     padding-top: 100px;
 
+}
+#shadow-host-companion{
+  display:none;
 }

@@ -135,42 +135,9 @@ export default function Home(args) {
             <div className="section-title">
               <h2>About Us</h2>
               <p>
-                Qonaq Health and Wellness Private Ltd. strongly believes that
-                healthcare should be accessible to all people, without
-                boundaries. The company was founded witnessing the difficult
-                time of the COVID-19 pandemic, which exposed weaknesses in
-                accessing healthcare globally. The COVID-19 pandemic also
-                highlighted the lack of effective management and communication
-                networks among medical providers and services worldwide. Qonaq's
-                goal is to create a world where high-quality healthcare and
-                wellness services are available to everyone, no matter their
-                location, socioeconomic status, or any other obstacles that has
-                traditionally limited access to healthcare.{" "}
-              </p>
-              <br />
-              <p>
-                Qonaq is a partner in one's journey towards complete well-being.
-                The disparity in healthcare during the pandemic: limited access
-                to specialized treatments, long wait times, and no affordable
-                options in many areas, motivated Qonaq to break down barriers to
-                healthcare. We aim to provide budget-friendly, world-className
-                healthcare and wellness options tailored to individual needs,
-                addressing treatments, relaxation, and healing needs. We’re on a
-                mission: to offer a path free from constraints and full of
-                prospects for better health outcomes by streamlined patient
-                management services worldwide, rapid response for urgent &
-                critical cases.
-              </p>
-              <br />
-              <p>
-                We aim to focus on accessible advanced medical care but also
-                wellness treatments, relaxation techniques, and restorative
-                experiences in peaceful surroundings. We firmly believe in a
-                recovery that goes beyond the physical and encompasses the
-                mental and spiritual aspects of the individual. Our mission is
-                to support and guide you on your journey towards improved health
-                and overall well-being, not just limiting our support till the
-                treatment but also during post-recovery.
+              Qonaq Health and Wellness is the First and Only platform to offer you holistic healthcare and wellness tourism solutions. Qonaq is the partner in your journey towards complete well-being. 
+              We, at Qonaq aim to provide budget-friendly, world-class healthcare and wellness options addressing – medical treatments, relaxation, and healing needs. We firmly believe in a recovery that goes beyond your physical health and encompasses the mental and even spiritual well being. Our goal is to accompany you as you strive for better health and well-being, offering support not only during treatment but throughout your recovery journey.
+              {" "}
               </p>
             </div>
     </div>
